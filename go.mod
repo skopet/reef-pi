@@ -20,5 +20,6 @@ require (
 	github.com/shirou/gopsutil v2.19.11+incompatible
 	go.etcd.io/bbolt v1.3.3
 	golang.org/x/sys v0.0.0-20191118133127-cf1e2d577169 // indirect
+	golang.org/x/tools v0.0.0-20191217144153-01c78d57fd55 // indirect
 	gopkg.in/yaml.v2 v2.2.7
 )
