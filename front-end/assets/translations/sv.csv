@@ -48,23 +48,23 @@ ato:chk_freq,Kontrollera Frekvensen
 ato:chk_freq_number, Kontrollera Frekvensen måste vara ett numerisk värde
 ato:chk_freq_number_value,Kontrollera Frekvensen måste vara minst 1 sekund eller mer
 ato:chk_freq_required,Kontrollera Frekvensen är obligatoriskt
-###ato:control_pump,Styr pump
-ato:controlequipment,
-ato:controlmacro,
-ato:controlnothing,
-ato:disable_on_alert,
-ato:inlet_required,
-ato:name_required,
-ato:status_required,
-ato:threshold_required,
-ato:threshold_value,
-ato:total_seconds_pump_on,
-ato:validation_error,
-ato:warning_delete,
-capabilities:ato,
-capabilities:camera,
-capabilities:configuration,
-capabilities:dashboard,
+ato:control_pump,Styr pump
+ato:controlequipment,Styrverktyg
+ato:controlmacro,Makro
+ato:controlnothing,Inget
+ato:disable_on_alert,Inaktivera vid larm
+ato:inlet_required,obligatorisk
+ato:name_required,Namn är obligatoriskt
+ato:status_required,Status är obligatoriskt
+ato:threshold_required,gränsvärde är obligatoriskt när avisering är aktiverad
+ato:threshold_value,gränsvärde
+ato:total_seconds_pump_on,Antal sekunder ATO pump är påslagen
+ato:validation_error,ATO inställningarna kan ej sparas, updatera felaktga fält och försök igen
+ato:warning_delete,Vill du ta bort?
+capabilities:ato,ATO
+capabilities:camera,Kamera
+capabilities:configuration,Konfiguration
+###capabilities:dashboard,Informationspanel
 capabilities:dev_mode,
 capabilities:doser,
 capabilities:dosing_pumps,
