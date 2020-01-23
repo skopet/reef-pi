@@ -200,53 +200,54 @@ temperature:chart:current,
 temperature:chart:historical,
 temperature:chart_maximum,
 temperature:chart_minimum,
-temperature:control,
-temperature:controlequipment,
-temperature:controlmacro,
-temperature:current_reading,
-temperature:fahrenheit,
-temperature:heater_cooler,
-temperature:lower_function,
-temperature:lower_threshold,
-temperature:sensor,
-temperature:sensor_status,
-temperature:temperature,
-temperature:upper_function,
-temperature:upper_threshold,
-temperature:validation_error,
-temperature:warn_delete,
-timers:after,
-timers:and_then,
-timers:day_required,
-timers:duration_required,
-timers:equipment,
-timers:equipment:action,
-timers:equipment:equipment,
-timers:equipment:off,
-timers:equipment:on,
-timers:equipment:revert,
-timers:equipment_required,
-timers:function,
-timers:hour_required,
-timers:macro,
-timers:macros,
-timers:message,
-timers:message_required,
-timers:minute_required,
-timers:name_required,
-timers:on_required,
-timers:reminder,
-timers:sec,
-timers:second_required,
-timers:stay_off,
-timers:stay_on,
-timers:subject,
-timers:subject_required,
-timers:timer_status,
-timers:timer_status_required,
-timers:turn_back_off,
-timers:turn_back_on,
-timers:turn_off,
-timers:turn_on,
-timers:type_required,
-timers:validation_error,
+####temperature:control,Styrenhet
+temperature:controlequipment,Utrustning
+temperature:controlmacro,Macro
+temperature:current_reading,Nuvarande värde
+temperature:fahrenheit,Fahrenheit
+temperature:heater_cooler,Värmare/kylare
+temperature:hysteresis_less_than, Accepterad temperaturavvikelse
+temperature:lower_function,Värmare
+temperature:lower_threshold,Tröskelvärde för uppvärmning
+temperature:sensor,Sensor
+temperature:sensor_status,Sensor status
+temperature:temperature,Temperatur
+temperature:upper_function,Kylfunktion
+temperature:upper_threshold,tröskelvärde för att kyla
+temperature:validation_error,Valideringsfel, temperaturen kan ej sparas, rätta felen och spara igen.
+temperature:warn_delete,Denna åtgärd will ta bort
+timers:after,efter
+timers:and_then,och sen
+timers:day_required,Dag är är obligatoriskt
+timers:duration_required,Varaktighet är obligatoriskt
+timers:equipment,Equipment
+timers:equipment:action,Åtgärd
+timers:equipment:equipment,Utrustning
+timers:equipment:off,Av
+timers:equipment:on,På
+timers:equipment:revert, Ångra
+timers:equipment_required,Utrustning är obligatoriskt
+timers:function,Funktion
+timers:hour_required,timme är är obligatorisk
+timers:macro,Macro
+timers:macros,Macros
+timers:message,Meddelande
+timers:message_required,Meddelande är obligatoriskt
+timers:minute_required,Minut är obligatorisk
+timers:name_required,Namn är obligatoriskt
+timers:on_required,På är obligatorisk
+timers:reminder,Påminelse
+timers:sec,sek
+timers:second_required,Sekunder är obligatorisk
+timers:stay_off,Alltid av
+timers:stay_on,Alltid på
+timers:subject, Föremål
+timers:subject_required,Föremål är obligatorisk
+timers:timer_status,Timerstatus
+timers:timer_status_required,Timerstatus är obligatorisk
+timers:turn_back_off,Stäng av igen
+timers:turn_back_on,Sätt på igen
+timers:turn_off,Stäng av
+timers:turn_on,Sätt på
+timers:type_required,Typ är obligatorisk
+timers:validation_error,Timer inställningarna kan ej sparas på grund av valideringsfel, rätta felen och spara igen.
